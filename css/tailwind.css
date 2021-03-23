@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply uppercase rounded-lg inline-block px-5 py-3 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-opacity-50 font-semibold text-sm tracking-wider sm:mt-6;
+  }
+
+  .btn-primary {
+    @apply text-white bg-brand  hover:bg-brand-light focus:ring-brand active:bg-brand-dark;
+  }
+}
